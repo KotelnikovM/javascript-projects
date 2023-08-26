@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sliderLP{
+    width: 475px;
+    overflow: hidden;
+    height: 697px;
+}
+
+.slider-lineLP{
+    width: 100%;
+    height: 2788px;
+    background: #000;
+    position: relative;
+    top: 0;
+    transition: all 0.8s ease ;
+}
+
+.firstLP{
+    width: 100%;
+    height: 697px;
+    background: #3d9478;
+}
+
+.firstLP div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+}
+
+.firstLP h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.secondLP{
+    width: 100%;
+    height: 697px;
+    background: #fdde00;
+}
+
+.secondLP div{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+}
+
+.secondLP h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.thirdLP{
+    width: 100%;
+    height: 697px;
+    background: #525c4c;
+}
+
+.thirdLP div{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+}
+
+.thirdLP h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.fourthLP{
+    width: 100%;
+    height: 697px;
+    background: #380556;
+}
+
+.fourthLP div{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+}
+
+.fourthLP h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.slider-buttonLP{
+    width: 43px;
+    height: 47px;
+    position: absolute;
+    top: 350px;
+    left: 432px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.arrowLP {
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #9b9b9b;
+    border-right: 3px solid #9b9b9b;
+    margin: 0 auto 5px;
+    transform: rotate(135deg)
+}  
+
+.arrowLP:hover{
+    border-top: 3px solid #404040;
+    border-right: 3px solid #404040;
+}
+
+.sliderRP{
+    width: 889px;
+    overflow: hidden;
+    height: 697px;
+    background: #000;
+}
+
+.slider-lineRP{
+    width: 100%;
+    height: 2788px;
+    position: relative;
+    top: -2091px;
+    transition: all 0.8s ease ;
+}
+
+.firstRP{
+    width: 100%;
+    height: 697px;
+    background: url(./img/firstImg.jpg);
+}
+
+.secondRP{
+    width: 100%;
+    height: 697px;
+    background: url(./img/secondImg.jpg);
+}
+
+.thirdRP{
+    width: 100%;
+    height: 697px;
+    background: url(./img/thirdImg.jpg);
+}
+
+.fourthRP{
+    width: 100%;
+    height: 697px;
+    background: url(./img/fourthImg.jpg);
+}
+
+.slider-buttonRP{
+    width: 43px;
+    height: 47px;
+    position: absolute;
+    top: 303px;
+    left: 475px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.arrowRP {
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #9b9b9b;
+    border-right: 3px solid #9b9b9b;
+    margin: 5px auto 0;
+    transform: rotate(-45deg)
+}  
+
+.arrowRP:hover{
+    border-top: 3px solid #404040;
+    border-right: 3px solid #404040;
+}
